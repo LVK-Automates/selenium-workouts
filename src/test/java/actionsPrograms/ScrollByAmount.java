@@ -16,12 +16,12 @@ public class ScrollByAmount {
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
 		
-		WebElement myCareer1 = driver.findElement(By.linkText("Puma Shoes"));
-		int coordinates = myCareer1.getRect().y;
+		WebElement pumaShoes = driver.findElement(By.linkText("Puma Shoes"));
+		int coordinates = pumaShoes.getRect().y;
 		
 		new Actions(driver)
 		.scrollByAmount(0, coordinates)
-		.click(myCareer1)
+		.click(pumaShoes)
 		.perform();
 		
 	}
