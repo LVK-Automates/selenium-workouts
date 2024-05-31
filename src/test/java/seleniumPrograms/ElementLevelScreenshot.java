@@ -12,7 +12,6 @@ public class ElementLevelScreenshot {
 
     public static void main(String[] args) throws InterruptedException, IOException {
 
-
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.flipkart.com/");
