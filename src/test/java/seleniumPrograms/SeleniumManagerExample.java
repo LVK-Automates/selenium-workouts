@@ -23,14 +23,17 @@ public class SeleniumManagerExample {
 
         DriverFinder driverFinder = new DriverFinder(driverService,capabilities);
         String driverPath = driverFinder.getDriverPath();
+        String browserPath = driverFinder.getBrowserPath();
         System.out.println(driverPath);
-        driverService.start();
+        System.out.println(browserPath);
+       /* driverService.start();
 
         System.out.println(driverService.isRunning());
         URL url = driverService.getUrl();
         System.out.println(url.getProtocol());
         String driverProperty = driverService.getDriverProperty();
-        System.out.println(driverProperty);
+        System.out.println(driverProperty);*/
+
 
     }
 

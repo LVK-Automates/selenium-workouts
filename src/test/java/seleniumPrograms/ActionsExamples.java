@@ -21,7 +21,7 @@ public class ActionsExamples {
 /*		WebElement myCareer = driver.findElement(By.xpath("//a[contains(text(),'VPN for iPhone')]"));
 		
 		new Actions(driver)
-			.scrollToElement(myCareer)
+			.scrollToElement(myChttps://github.com/LVK-Automates/selenium-workouts.gitareer)
 			.perform();
 		
 		myCareer.click();

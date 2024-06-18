@@ -12,7 +12,7 @@ public class ElementLevelScreenshot {
 
     public static void main(String[] args) throws InterruptedException, IOException {
 
-        WebDriver driver = new ChromeDriver();
+   /*     WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.flipkart.com/");
 
@@ -24,5 +24,7 @@ public class ElementLevelScreenshot {
         File srcFile = element.getScreenshotAs(OutputType.FILE);
         File destFile = new File("filepath\\grocery.png");
         FileUtils.copyFile(srcFile, destFile);
+
+    */
     }
 }
